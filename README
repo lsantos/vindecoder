@@ -1,0 +1,6 @@
+
+The vindecoder project is divided in client and server modules.
+
+The server module is a express js backend app written in typescript, so you first have to cd to server directory, run npm install, compile the rest-server.ts class with the typescript compiler - if you don't have a global typescript compiler available, just run ./node_modules/typescript/bin/tsc rest-server.ts. You have to provide a valid api key in the file config.json. After that you can run node rest-server.js to fire up the server.
+
+The client module is an angular app so after you cd to client directory, your run npm install, ng s and you have it running.
